@@ -1,0 +1,127 @@
+{E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/phase_accumulator.v} {1 {vlog -work work -stats=none {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/phase_accumulator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module phase_accumulator
+
+Top level modules:
+	phase_accumulator
+
+} {} {}} {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FrequencyDivider.v} {1 {vlog -work work -stats=none {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FrequencyDivider.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FrequencyDivider
+
+Top level modules:
+	FrequencyDivider
+
+} {} {}} {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/ShiftRegister.v} {1 {vlog -work work -stats=none {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/ShiftRegister.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ShiftRegister
+
+Top level modules:
+	ShiftRegister
+
+} {} {}} {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/DDS.v} {1 {vlog -work work -stats=none {E:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\DDS.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DDS
+
+Top level modules:
+	DDS
+
+} {} {}} {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/dac_pwm_tb.sv} {1 {vlog -work work -sv -stats=none {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/dac_pwm_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dac_pwm_tb
+
+Top level modules:
+	dac_pwm_tb
+
+} {} {}} {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath_TB.sv} {1 {vlog -work work -sv -stats=none {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath_TB.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath_TB
+
+Top level modules:
+	datapath_TB
+
+} {} {}} {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FrequencyDivider_TB.sv} {1 {vlog -work work -sv -stats=none {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FrequencyDivider_TB.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FrequencyDivider_TB
+
+Top level modules:
+	FrequencyDivider_TB
+
+} {} {}} {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/dac_pwm.v} {1 {vlog -work work -stats=none {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/dac_pwm.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dac_pwm
+
+Top level modules:
+	dac_pwm
+
+} {} {}} {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/DDS_TB.sv} {1 {vlog -work work -sv -stats=none {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/DDS_TB.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DDS_TB
+
+Top level modules:
+	DDS_TB
+
+} {} {}} {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/up_counter.v} {1 {vlog -work work -stats=none {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/up_counter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module up_counter
+
+Top level modules:
+	up_counter
+
+} {} {}} {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/two_one_mux.v} {1 {vlog -work work -stats=none {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/two_one_mux.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module two_one_mux
+
+Top level modules:
+	two_one_mux
+
+} {} {}} {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/MessageProcess.v} {1 {vlog -work work -stats=none {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/MessageProcess.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MessageProcess
+
+Top level modules:
+	MessageProcess
+
+} {} {}} {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/MssageProcess_TB.v} {1 {vlog -work work -stats=none {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/MssageProcess_TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MessageProcess_TB
+
+Top level modules:
+	MessageProcess_TB
+
+} {} {}} {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/UpCounter.v} {1 {vlog -work work -stats=none {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/UpCounter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module UpCounter
+
+Top level modules:
+	UpCounter
+
+} {} {}} {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FreqDivHL.v} {1 {vlog -work work -stats=none {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FreqDivHL.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FreqDivHL
+
+Top level modules:
+	FreqDivHL
+
+} {} {}} {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/ROM.v} {1 {vlog -work work -stats=none {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/ROM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ROM
+
+Top level modules:
+	ROM
+
+} {} {}} {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/two_s_complement.v} {1 {vlog -work work -stats=none {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/two_s_complement.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module two_s_complement
+
+Top level modules:
+	two_s_complement
+
+} {} {}} {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath.v} {1 {vlog -work work -stats=none {E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}}

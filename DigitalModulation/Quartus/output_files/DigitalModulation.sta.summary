@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'clk'
+Slack : -14.568
+TNS   : -73.799
+
+Type  : Slow Model Setup 'SW[0]'
+Slack : -5.216
+TNS   : -104.829
+
+Type  : Slow Model Setup 'rst'
+Slack : -4.573
+TNS   : -84.896
+
+Type  : Slow Model Setup 'DDS:inst8|phase_accumulator:PA|up_counter:UC1|cout'
+Slack : -1.488
+TNS   : -4.555
+
+Type  : Slow Model Hold 'rst'
+Slack : -0.961
+TNS   : -15.851
+
+Type  : Slow Model Hold 'SW[0]'
+Slack : 0.321
+TNS   : 0.000
+
+Type  : Slow Model Hold 'clk'
+Slack : 0.380
+TNS   : 0.000
+
+Type  : Slow Model Hold 'DDS:inst8|phase_accumulator:PA|up_counter:UC1|cout'
+Slack : 0.755
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'clk'
+Slack : -0.176
+TNS   : -1.536
+
+Type  : Slow Model Recovery 'SW[0]'
+Slack : 0.784
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'rst'
+Slack : 1.427
+TNS   : 0.000
+
+Type  : Slow Model Removal 'rst'
+Slack : -3.637
+TNS   : -74.535
+
+Type  : Slow Model Removal 'SW[0]'
+Slack : -2.313
+TNS   : -34.051
+
+Type  : Slow Model Removal 'clk'
+Slack : -0.085
+TNS   : -0.778
+
+Type  : Slow Model Minimum Pulse Width 'rst'
+Slack : -1.631
+TNS   : -96.987
+
+Type  : Slow Model Minimum Pulse Width 'SW[0]'
+Slack : -1.631
+TNS   : -41.249
+
+Type  : Slow Model Minimum Pulse Width 'clk'
+Slack : -1.631
+TNS   : -34.625
+
+Type  : Slow Model Minimum Pulse Width 'DDS:inst8|phase_accumulator:PA|up_counter:UC1|cout'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'clk'
+Slack : -4.817
+TNS   : -17.536
+
+Type  : Fast Model Setup 'SW[0]'
+Slack : -2.066
+TNS   : -24.925
+
+Type  : Fast Model Setup 'rst'
+Slack : -1.756
+TNS   : -15.755
+
+Type  : Fast Model Setup 'DDS:inst8|phase_accumulator:PA|up_counter:UC1|cout'
+Slack : 0.114
+TNS   : 0.000
+
+Type  : Fast Model Hold 'rst'
+Slack : -0.512
+TNS   : -8.395
+
+Type  : Fast Model Hold 'clk'
+Slack : -0.069
+TNS   : -0.157
+
+Type  : Fast Model Hold 'SW[0]'
+Slack : 0.169
+TNS   : 0.000
+
+Type  : Fast Model Hold 'DDS:inst8|phase_accumulator:PA|up_counter:UC1|cout'
+Slack : 0.275
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'clk'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'SW[0]'
+Slack : 0.513
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'rst'
+Slack : 0.823
+TNS   : 0.000
+
+Type  : Fast Model Removal 'rst'
+Slack : -1.918
+TNS   : -41.187
+
+Type  : Fast Model Removal 'SW[0]'
+Slack : -1.333
+TNS   : -23.318
+
+Type  : Fast Model Removal 'clk'
+Slack : -0.224
+TNS   : -2.181
+
+Type  : Fast Model Minimum Pulse Width 'rst'
+Slack : -1.380
+TNS   : -49.542
+
+Type  : Fast Model Minimum Pulse Width 'SW[0]'
+Slack : -1.380
+TNS   : -33.024
+
+Type  : Fast Model Minimum Pulse Width 'clk'
+Slack : -1.380
+TNS   : -28.380
+
+Type  : Fast Model Minimum Pulse Width 'DDS:inst8|phase_accumulator:PA|up_counter:UC1|cout'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------

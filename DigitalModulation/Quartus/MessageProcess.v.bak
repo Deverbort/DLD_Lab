@@ -1,0 +1,58 @@
+module MessageProcess (send, Msg, clk,rst, msg_bit);
+
+    input send;
+    input [4:0] Msg;
+    input clk,rst;
+    output msg_bit;
+
+    wire [8:0] shr_out;
+    reg ldEN, shEN;
+
+    ShiftRegister #(9) MSG_REG ({{4'b0101},Msg}, shEN, ldEN, clk,rst, shr_out);
+    assign msg_bit = shr_out[8];
+
+    reg cnt_cen;
+    reg cnt_init0;
+    wire [9:0] sine_maker_cntout;
+    wire sine_maker_co;
+    UpCounter #(1024) SineMaker (cnt_cen, cnt_init0, clk,rst, sine_maker_cntout, sine_maker_co);
+    wire [3:0] sine_counter_cntout;
+    wire sine_counter_co;
+    UpCounter #(9) SineCounter (cnt_cen & sine_maker_co, cnt_init0, clk,rst, sine_counter_cntout, sine_counter_co);
+
+
+    reg [1:0] ps, ns;
+
+    always @(posedge clk, posedge rst) begin
+        if(rst) ps <= 2'b00;
+        else ps <= ns;
+    end
+
+    always @(ps, send, sine_maker_co, sine_counter_co) begin
+        ns = 2'b00;
+        case(ps)
+            2'b00: ns = send ? 2'b01 : 2'b00;
+            2'b01: ns = send ? 2'b01 : 2'b10;
+            2'b10: ns = (sine_counter_co & sine_maker_co) ? 2'b00 : 2'b10;
+        endcase
+    end
+
+    always @(ps, send, sine_maker_co, sine_counter_co) begin
+        cnt_cen = 1'b0;
+        cnt_init0 = 1'b0;
+        ldEN = 1'b0;
+        shEN = 1'b0;
+        case(ps)
+            2'b00: begin end
+            2'b01: begin
+                cnt_init0 = 1'b1;
+                ldEN = 1'b1;
+            end
+            2'b10: begin
+                cnt_cen = 1'b1;
+                if(sine_maker_co)   shEN = 1'b1;
+            end
+        endcase
+    end
+
+endmodule
