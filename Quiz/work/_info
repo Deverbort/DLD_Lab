@@ -1,0 +1,115 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/ssata/OneDrive/Desktop/DaTest
+vFSM
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1733575450
+!i10b 1
+!s100 YYVKW;IXh7:98MiA8=8X33
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;D<bjLYBXcMYdmPYWLM5C3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dE:/uni/UT/5th Semester/DLD Lab/Quiz
+w1733575008
+8E:\uni\UT\5th Semester\DLD Lab\Quiz\FSM.sv
+FE:\uni\UT\5th Semester\DLD Lab\Quiz\FSM.sv
+!i122 27
+L0 1 26
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1733575450.000000
+!s107 E:\uni\UT\5th Semester\DLD Lab\Quiz\FSM.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:\uni\UT\5th Semester\DLD Lab\Quiz\FSM.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+n@f@s@m
+vTB
+R0
+R1
+!i10b 1
+!s100 dR66IPfWnC9Z51YH[0A8`3
+R2
+IlP@S78PQ]Ff=G_WQ:XnET3
+R3
+S1
+R4
+w1733574760
+8E:\uni\UT\5th Semester\DLD Lab\Quiz\TB.sv
+FE:\uni\UT\5th Semester\DLD Lab\Quiz\TB.sv
+!i122 28
+L0 2 15
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:\uni\UT\5th Semester\DLD Lab\Quiz\TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:\uni\UT\5th Semester\DLD Lab\Quiz\TB.sv|
+!i113 1
+R7
+R8
+n@t@b
+vTB2
+R0
+Z9 !s110 1733575451
+!i10b 1
+!s100 j<D:OWoKe@R749FGl=Z?z2
+R2
+IS4cg_;HEmG6P?mJ@[AdLd0
+R3
+S1
+R4
+w1733575215
+8E:\uni\UT\5th Semester\DLD Lab\Quiz\TB2.sv
+FE:\uni\UT\5th Semester\DLD Lab\Quiz\TB2.sv
+!i122 29
+L0 2 17
+R5
+r1
+!s85 0
+31
+Z10 !s108 1733575451.000000
+!s107 E:\uni\UT\5th Semester\DLD Lab\Quiz\TB2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:\uni\UT\5th Semester\DLD Lab\Quiz\TB2.sv|
+!i113 1
+R7
+R8
+n@t@b2
+vTB3
+R0
+R9
+!i10b 1
+!s100 l8Og1PmXSjoflBU<mU4e<2
+R2
+IG89:@NAblAV;?cWEU7R<?1
+R3
+S1
+R4
+w1733575447
+8E:\uni\UT\5th Semester\DLD Lab\Quiz\TB3.sv
+FE:\uni\UT\5th Semester\DLD Lab\Quiz\TB3.sv
+!i122 30
+L0 3 20
+R5
+r1
+!s85 0
+31
+R10
+!s107 E:\uni\UT\5th Semester\DLD Lab\Quiz\TB3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:\uni\UT\5th Semester\DLD Lab\Quiz\TB3.sv|
+!i113 1
+R7
+R8
+n@t@b3

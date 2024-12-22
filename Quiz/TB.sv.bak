@@ -1,0 +1,14 @@
+`timescale 1ns/1ns
+module TB();
+wire w;
+logic j;
+logic clk;
+FSM DUT(.j(j),.w(w),.clk(clk));
+#1 clk = 1;
+always #5 clk = ~clk;
+#1 j = 0;
+#5 j = 1;
+#5 j = 1;
+#5 j = 0;
+#5 j = 1;
+endmodule

@@ -1,0 +1,29 @@
+{E:/uni/UT/5th Semester/DLD Lab/Quiz/TB.sv} {1 {vlog -work work -sv -stats=none {E:\uni\UT\5th Semester\DLD Lab\Quiz\TB.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}} {E:/uni/UT/5th Semester/DLD Lab/Quiz/FSM.sv} {1 {vlog -work work -sv -stats=none {E:\uni\UT\5th Semester\DLD Lab\Quiz\FSM.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FSM
+
+Top level modules:
+	FSM
+
+} {} {}} {E:/uni/UT/5th Semester/DLD Lab/Quiz/TB2.sv} {1 {vlog -work work -sv -stats=none {E:\uni\UT\5th Semester\DLD Lab\Quiz\TB2.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TB2
+
+Top level modules:
+	TB2
+
+} {} {}} {E:/uni/UT/5th Semester/DLD Lab/Quiz/TB3.sv} {1 {vlog -work work -sv -stats=none {E:\uni\UT\5th Semester\DLD Lab\Quiz\TB3.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TB3
+
+Top level modules:
+	TB3
+
+} {} {}}
