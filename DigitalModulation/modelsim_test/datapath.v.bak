@@ -7,7 +7,7 @@ output out;
 wire coH, coL;
 FrequencyDivider FreqDivH(
     .init(init), 
-    .H_L(0), 
+    .H_L(1), 
     .SW(PL), 
     .clk(clk), 
     .rst(rst), 
@@ -15,7 +15,7 @@ FrequencyDivider FreqDivH(
 );
 FrequencyDivider FreqDivL(
     .init(init), 
-    .H_L(1), 
+    .H_L(0), 
     .SW(PL), 
     .clk(clk), 
     .rst(rst), 

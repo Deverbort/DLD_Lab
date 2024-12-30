@@ -10,7 +10,7 @@ z2
 cModel Technology
 dC:/intelFPGA/20.1
 vdac_pwm
-Z0 !s110 1734776745
+Z0 !s110 1735382931
 !i10b 1
 !s100 9;0QVSNZ;@zGn?j1Lf1[P0
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,13 +20,13 @@ Z3 dE:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test
 w1734703931
 8E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/dac_pwm.v
 FE:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/dac_pwm.v
-!i122 1072
+!i122 1129
 Z4 L0 1 26
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1734776745.000000
+Z6 !s108 1735382931.000000
 !s107 E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/dac_pwm.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/dac_pwm.v|
 !i113 1
@@ -34,7 +34,7 @@ Z7 o-work work
 Z8 tCvgOpt 0
 vdac_pwm_tb
 Z9 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z10 !s110 1734776744
+R0
 !i10b 1
 !s100 HMSe0;M@fgnE1fGUHfCJd0
 R1
@@ -45,44 +45,44 @@ R3
 w1734173833
 8E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/dac_pwm_tb.sv
 FE:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/dac_pwm_tb.sv
-!i122 1067
+!i122 1124
 L0 1 21
 R5
 r1
 !s85 0
 31
-Z11 !s108 1734776744.000000
+R6
 !s107 E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/dac_pwm_tb.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/dac_pwm_tb.sv|
 !i113 1
-Z12 o-work work -sv
+Z10 o-work work -sv
 R8
 vdatapath
-Z13 !s110 1734776746
+Z11 !s110 1735382932
 !i10b 1
-!s100 Q:k`;E<<J5@;6@=J9KP[@1
+!s100 Ofi:Kh5lRGaPSkE=BO`702
 R1
-I`mhWhO15CRn93k[j:7aYg1
+IRYB:KDGPi2mPm8;=X:lP21
 R2
 R3
-w1734716996
-8E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath.v
-FE:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath.v
-!i122 1075
+w1734953004
+8E:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\datapath.v
+FE:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\datapath.v
+!i122 1132
 L0 1 67
 R5
 r1
 !s85 0
 31
-Z14 !s108 1734776746.000000
-!s107 E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath.v|
-!s90 -reportprogress|300|-work|work|-stats=none|E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath.v|
+Z12 !s108 1735382932.000000
+!s107 E:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\datapath.v|
 !i113 1
 R7
 R8
 vdatapath_TB
 R9
-R13
+R11
 !i10b 1
 !s100 A_mSgK1142EYml1@^Uofg3
 R1
@@ -93,21 +93,21 @@ R3
 w1734760545
 8E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath_TB.sv
 FE:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath_TB.sv
-!i122 1076
+!i122 1133
 L0 1 38
 R5
 r1
 !s85 0
 31
-R14
+R12
 !s107 E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath_TB.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath_TB.sv|
 !i113 1
-R12
+R10
 R8
 ndatapath_@t@b
 vDDS
-!s110 1734776743
+Z13 !s110 1735382930
 !i10b 1
 !s100 QWNL;W2hXZaQkL05eX40O3
 R1
@@ -117,13 +117,13 @@ R3
 w1734172135
 8E:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\DDS.v
 FE:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\DDS.v
-!i122 1059
+!i122 1116
 R4
 R5
 r1
 !s85 0
 31
-Z15 !s108 1734776743.000000
+!s108 1735382929.000000
 !s107 E:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\DDS.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\DDS.v|
 !i113 1
@@ -132,7 +132,7 @@ R8
 n@d@d@s
 vDDS_TB
 R9
-R10
+R13
 !i10b 1
 !s100 2c0TXPn0FaW54=h4MAI@P1
 R1
@@ -143,21 +143,21 @@ R3
 w1734171841
 8E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/DDS_TB.sv
 FE:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/DDS_TB.sv
-!i122 1060
+!i122 1117
 L0 1 13
 R5
 r1
 !s85 0
 31
-R15
+Z14 !s108 1735382930.000000
 !s107 E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/DDS_TB.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/DDS_TB.sv|
 !i113 1
-R12
+R10
 R8
 n@d@d@s_@t@b
 vFreqDivHL
-R13
+R11
 !i10b 1
 !s100 lUDJBS2>eQVSQ_k6dSdPG0
 R1
@@ -167,13 +167,13 @@ R3
 w1734761170
 8E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FreqDivHL.v
 FE:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FreqDivHL.v
-!i122 1077
-Z16 L0 1 6
+!i122 1134
+Z15 L0 1 6
 R5
 r1
 !s85 0
 31
-R14
+R12
 !s107 E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FreqDivHL.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FreqDivHL.v|
 !i113 1
@@ -181,7 +181,7 @@ R7
 R8
 n@freq@div@h@l
 vFrequencyDivider
-R0
+R11
 !i10b 1
 !s100 KRTQY@3fV10P2Ahe8g4e31
 R1
@@ -191,13 +191,13 @@ R3
 w1734760501
 8E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FrequencyDivider.v
 FE:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FrequencyDivider.v
-!i122 1073
+!i122 1130
 L0 1 25
 R5
 r1
 !s85 0
 31
-R6
+R12
 !s107 E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FrequencyDivider.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FrequencyDivider.v|
 !i113 1
@@ -206,7 +206,7 @@ R8
 n@frequency@divider
 vFrequencyDivider_TB
 R9
-R0
+R11
 !i10b 1
 !s100 <X[Ih^N]IcP2X@`UdTIK83
 R1
@@ -217,17 +217,17 @@ R3
 w1734700316
 8E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FrequencyDivider_TB.sv
 FE:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FrequencyDivider_TB.sv
-!i122 1074
+!i122 1131
 L0 1 18
 R5
 r1
 !s85 0
 31
-R6
+R12
 !s107 E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FrequencyDivider_TB.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FrequencyDivider_TB.sv|
 !i113 1
-R12
+R10
 R8
 n@frequency@divider_@t@b
 vMessageProcess
@@ -241,7 +241,7 @@ R3
 w1734759453
 8E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/MessageProcess.v
 FE:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/MessageProcess.v
-!i122 1068
+!i122 1125
 L0 1 56
 R5
 r1
@@ -265,7 +265,7 @@ R3
 w1734758091
 8E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/MssageProcess_TB.v
 FE:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/MssageProcess_TB.v
-!i122 1069
+!i122 1126
 L0 1 23
 R5
 r1
@@ -303,7 +303,7 @@ R7
 R8
 n@message@process@vzero
 vphase_accumulator
-R10
+R13
 !i10b 1
 !s100 9TKYm1Blde@JYJSBbK;7[3
 R1
@@ -313,20 +313,20 @@ R3
 w1734002224
 8E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/phase_accumulator.v
 FE:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/phase_accumulator.v
-!i122 1061
+!i122 1118
 L0 1 42
 R5
 r1
 !s85 0
 31
-R11
+R14
 !s107 E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/phase_accumulator.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/phase_accumulator.v|
 !i113 1
 R7
 R8
 vROM
-R10
+R13
 !i10b 1
 !s100 ezUd2kd`SJbCbKo;fnT;h1
 R1
@@ -336,13 +336,13 @@ R3
 w1734172458
 8E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/ROM.v
 FE:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/ROM.v
-!i122 1062
+!i122 1119
 L0 1 10
 R5
 r1
 !s85 0
 31
-R11
+R14
 !s107 E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/ROM.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/ROM.v|
 !i113 1
@@ -352,52 +352,52 @@ n@r@o@m
 vShiftRegister
 R0
 !i10b 1
-!s100 ATdeB_m36i`2z0S48m[]k2
+!s100 SSmd?QRdzF7[Km@=`NP?_0
 R1
-ILXWfS33>PcAf;1[L8d1jP3
+IRXDN538k;0@1mgH=ATX[o1
 R2
 R3
-w1734005062
-8E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/ShiftRegister.v
-FE:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/ShiftRegister.v
-!i122 1070
+w1735382928
+8E:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\ShiftRegister.v
+FE:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\ShiftRegister.v
+!i122 1127
 L0 1 19
 R5
 r1
 !s85 0
 31
 R6
-!s107 E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/ShiftRegister.v|
-!s90 -reportprogress|300|-work|work|-stats=none|E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/ShiftRegister.v|
+!s107 E:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\ShiftRegister.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\ShiftRegister.v|
 !i113 1
 R7
 R8
 n@shift@register
 vsign_to_two_s_comp
-R10
+R13
 !i10b 1
-!s100 7CzE11J_DBA<eX@d9^=P51
+!s100 ?J12<aFgo^VBDF0HCI;zN2
 R1
-IbGCXFck=hgfz@6YACSG823
+I7XPH7E]8dYbNk4DQLQ^991
 R2
 R3
-w1734776738
+w1734776946
 8E:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\sign_to_two_s_comp.v
 FE:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\sign_to_two_s_comp.v
-!i122 1063
+!i122 1120
 L0 1 9
 R5
 r1
 !s85 0
 31
-R11
+R14
 !s107 E:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\sign_to_two_s_comp.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\sign_to_two_s_comp.v|
 !i113 1
 R7
 R8
 vtwo_one_mux
-R10
+R13
 !i10b 1
 !s100 CIabSX5`CRF^j6cbHnD?23
 R1
@@ -407,20 +407,20 @@ R3
 w1734712799
 8E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/two_one_mux.v
 FE:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/two_one_mux.v
-!i122 1064
-R16
+!i122 1121
+R15
 R5
 r1
 !s85 0
 31
-R11
+R14
 !s107 E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/two_one_mux.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/two_one_mux.v|
 !i113 1
 R7
 R8
 vtwo_s_complement
-R10
+R13
 !i10b 1
 !s100 MV3827od^<8R=4X6<Te2>2
 R1
@@ -430,38 +430,38 @@ R3
 w1734001297
 8E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/two_s_complement.v
 FE:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/two_s_complement.v
-!i122 1065
+!i122 1122
 L0 1 5
 R5
 r1
 !s85 0
 31
-R11
+R14
 !s107 E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/two_s_complement.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/two_s_complement.v|
 !i113 1
 R7
 R8
 vup_counter
-R10
+R0
 !i10b 1
 !s100 @^9M`CoBDT_NRlU_^?=_]1
 R1
-IPG0]F2UzXjUVcJdH1[H:@2
+IDChn9@Y8z_G1>HhzJ4Q8[3
 R2
 R3
 w1733995712
-8E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/up_counter.v
-FE:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/up_counter.v
-!i122 1066
+8E:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\up_counter.v
+FE:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\up_counter.v
+!i122 1123
 L0 1 22
 R5
 r1
 !s85 0
 31
-R11
-!s107 E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/up_counter.v|
-!s90 -reportprogress|300|-work|work|-stats=none|E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/up_counter.v|
+R6
+!s107 E:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\up_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\up_counter.v|
 !i113 1
 R7
 R8
@@ -470,21 +470,21 @@ R0
 !i10b 1
 !s100 ^^98a@V_kJPnkMGTe7];U1
 R1
-In>FfFF4Z@5`z[J3_1>2ME1
+IlWTBcV<oliEC>jzEEJ9CZ2
 R2
 R3
 w1734758397
-8E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/UpCounter.v
-FE:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/UpCounter.v
-!i122 1071
+8E:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\UpCounter.v
+FE:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\UpCounter.v
+!i122 1128
 L0 1 24
 R5
 r1
 !s85 0
 31
 R6
-!s107 E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/UpCounter.v|
-!s90 -reportprogress|300|-work|work|-stats=none|E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/UpCounter.v|
+!s107 E:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\UpCounter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:\uni\UT\5th Semester\DLD Lab\DigitalModulation\modelsim_test\UpCounter.v|
 !i113 1
 R7
 R8

@@ -80,7 +80,7 @@ GND*                         : A9        :        :                   :         
 GND*                         : A10       :        :                   :         : 3         :                
 GND*                         : A11       :        :                   :         : 3         :                
 GND+                         : A12       :        :                   :         : 4         :                
-GND*                         : A13       :        :                   :         : 4         :                
+out                          : A13       : output : 3.3-V LVTTL       :         : 4         : Y              
 GND*                         : A14       :        :                   :         : 4         :                
 GND*                         : A15       :        :                   :         : 4         :                
 GND*                         : A16       :        :                   :         : 4         :                
@@ -415,7 +415,7 @@ NC                           : P14       :        :                   :         
 GND*                         : P15       :        :                   :         : 6         :                
 VCCIO6                       : P16       : power  :                   : 3.3V    : 6         :                
 freq                         : P17       : output : 3.3-V LVTTL       :         : 6         : Y              
-out                          : P18       : output : 3.3-V LVTTL       :         : 6         : Y              
+GND*                         : P18       :        :                   :         : 6         :                
 NC                           : P19       :        :                   :         :           :                
 NC                           : P20       :        :                   :         :           :                
 NC                           : P21       :        :                   :         :           :                

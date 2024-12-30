@@ -1,28 +1,28 @@
 |DigitalModulation
 out <= dac_pwm:inst7.pwm_out
 clk => dac_pwm:inst7.clk
-clk => FrequencyDivider:inst.clk
-clk => FrequencyDivider:inst1.clk
+clk => FrequencyDivider:frq1.clk
+clk => FrequencyDivider:frq2.clk
 rst => dac_pwm:inst7.rst
-rst => FrequencyDivider:inst.rst
+rst => FrequencyDivider:frq1.rst
 rst => MessageProcess:inst6.rst
-rst => FrequencyDivider:inst1.rst
+rst => FrequencyDivider:frq2.rst
 rst => DDS:inst8.rst
 Mode => inst10.IN0
 send => inst2.IN0
 init => inst3.IN0
-SW[0] => FrequencyDivider:inst.SW[0]
-SW[0] => FrequencyDivider:inst1.SW[0]
-SW[1] => FrequencyDivider:inst.SW[1]
-SW[1] => FrequencyDivider:inst1.SW[1]
-SW[2] => FrequencyDivider:inst.SW[2]
-SW[2] => FrequencyDivider:inst1.SW[2]
+SW[0] => FrequencyDivider:frq1.SW[0]
+SW[0] => FrequencyDivider:frq2.SW[0]
+SW[1] => FrequencyDivider:frq1.SW[1]
+SW[1] => FrequencyDivider:frq2.SW[1]
+SW[2] => FrequencyDivider:frq1.SW[2]
+SW[2] => FrequencyDivider:frq2.SW[2]
 Msg[0] => MessageProcess:inst6.Msg[0]
 Msg[1] => MessageProcess:inst6.Msg[1]
 Msg[2] => MessageProcess:inst6.Msg[2]
 Msg[3] => MessageProcess:inst6.Msg[3]
 Msg[4] => MessageProcess:inst6.Msg[4]
-freq <= MUX:inst4.OUT
+freq <= FrequencyDivider:frq1.co
 
 
 |DigitalModulation|dac_pwm:inst7
@@ -217,16 +217,12 @@ cntOUT[3] <= cnt[3].DB_MAX_OUTPUT_PORT_TYPE
 carryOUT <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DigitalModulation|FrequencyDivider:inst
+|DigitalModulation|FrequencyDivider:frq1
 init => always0.IN1
 H_L => cnt.DATAB
-H_L => cnt[8].ADATA
 SW[0] => cnt.DATAB
-SW[0] => cnt[5].ADATA
 SW[1] => cnt.DATAB
-SW[1] => cnt[6].ADATA
 SW[2] => cnt.DATAB
-SW[2] => cnt[7].ADATA
 clk => cnt[0].CLK
 clk => cnt[1].CLK
 clk => cnt[2].CLK
@@ -236,15 +232,15 @@ clk => cnt[5].CLK
 clk => cnt[6].CLK
 clk => cnt[7].CLK
 clk => cnt[8].CLK
-rst => cnt[0].ALOAD
-rst => cnt[1].ALOAD
-rst => cnt[2].ALOAD
-rst => cnt[3].ALOAD
-rst => cnt[4].ALOAD
-rst => cnt[5].ALOAD
-rst => cnt[6].ALOAD
-rst => cnt[7].ALOAD
-rst => cnt[8].ALOAD
+rst => cnt[0].ACLR
+rst => cnt[1].ACLR
+rst => cnt[2].ACLR
+rst => cnt[3].ACLR
+rst => cnt[4].ACLR
+rst => cnt[5].ACLR
+rst => cnt[6].ACLR
+rst => cnt[7].ACLR
+rst => cnt[8].ACLR
 co <= WideAnd0.DB_MAX_OUTPUT_PORT_TYPE
 
 
@@ -439,16 +435,12 @@ select => OUT.OUTPUTSELECT
 OUT <= OUT.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DigitalModulation|FrequencyDivider:inst1
+|DigitalModulation|FrequencyDivider:frq2
 init => always0.IN1
 H_L => cnt.DATAB
-H_L => cnt[8].ADATA
 SW[0] => cnt.DATAB
-SW[0] => cnt[5].ADATA
 SW[1] => cnt.DATAB
-SW[1] => cnt[6].ADATA
 SW[2] => cnt.DATAB
-SW[2] => cnt[7].ADATA
 clk => cnt[0].CLK
 clk => cnt[1].CLK
 clk => cnt[2].CLK
@@ -458,15 +450,15 @@ clk => cnt[5].CLK
 clk => cnt[6].CLK
 clk => cnt[7].CLK
 clk => cnt[8].CLK
-rst => cnt[0].ALOAD
-rst => cnt[1].ALOAD
-rst => cnt[2].ALOAD
-rst => cnt[3].ALOAD
-rst => cnt[4].ALOAD
-rst => cnt[5].ALOAD
-rst => cnt[6].ALOAD
-rst => cnt[7].ALOAD
-rst => cnt[8].ALOAD
+rst => cnt[0].ACLR
+rst => cnt[1].ACLR
+rst => cnt[2].ACLR
+rst => cnt[3].ACLR
+rst => cnt[4].ACLR
+rst => cnt[5].ACLR
+rst => cnt[6].ACLR
+rst => cnt[7].ACLR
+rst => cnt[8].ACLR
 co <= WideAnd0.DB_MAX_OUTPUT_PORT_TYPE
 
 

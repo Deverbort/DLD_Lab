@@ -1,6 +1,6 @@
 vsim -gui work.datapath_TB
 # vsim -gui work.datapath_TB 
-# Start time: 12:51:09 on Dec 21,2024
+# Start time: 16:18:25 on Dec 30,2024
 # Loading sv_std.std
 # Loading work.datapath_TB
 # Loading work.datapath
@@ -20,6 +20,13 @@ vsim -gui work.datapath_TB
 #    Time: 0 ps  Iteration: 0  Instance: /datapath_TB/DUT/FreqDivH File: E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath.v Line: 8
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'H_L'. The port definition is at: E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FrequencyDivider.v(1).
 #    Time: 0 ps  Iteration: 0  Instance: /datapath_TB/DUT/FreqDivL File: E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath.v Line: 16
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:C:/mtitcl/vsim/qstructure.tc_:2478: ::QStructure::sort .main_pane.structure 0 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
 add wave -position insertpoint  \
 sim:/datapath_TB/DUT/clk \
 sim:/datapath_TB/DUT/rst \
@@ -39,196 +46,10 @@ sim:/datapath_TB/DUT/DDSMuxSel \
 sim:/datapath_TB/DUT/pwm_in
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: ssata  Hostname: DEVER-PC  ProcessID: 26016
-#           Attempting to use alternate WLF file "./wlftntvanm".
+#           Attempting to use alternate WLF file "./wlftbi04xh".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftntvanm
+#           Using alternate file: ./wlftbi04xh
 run -all
 # ** Note: $stop    : E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath_TB.sv(36)
 #    Time: 6040120 ps  Iteration: 0  Instance: /datapath_TB
 # Break in Module datapath_TB at E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath_TB.sv line 36
-# Compile of DDS.v was successful.
-# Compile of DDS_TB.sv was successful.
-# Compile of phase_accumulator.v was successful.
-# Compile of ROM.v was successful.
-# Compile of sign_to_two_s_comp.v was successful.
-# Compile of two_one_mux.v was successful.
-# Compile of two_s_complement.v was successful.
-# Compile of up_counter.v was successful.
-# Compile of dac_pwm_tb.sv was successful.
-# Compile of MessageProcess.v was successful.
-# Compile of MssageProcess_TB.v was successful.
-# Compile of ShiftRegister.v was successful.
-# Compile of UpCounter.v was successful.
-# Compile of dac_pwm.v was successful.
-# Compile of FrequencyDivider.v was successful.
-# Compile of FrequencyDivider_TB.sv was successful.
-# Compile of datapath.v was successful.
-# Compile of datapath_TB.sv was successful.
-# Compile of FreqDivHL.v was successful.
-# 19 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.datapath_TB
-# Loading work.datapath
-# Loading work.FrequencyDivider
-# Loading work.MessageProcess
-# Loading work.ShiftRegister
-# Loading work.UpCounter
-# Loading work.two_one_mux
-# Loading work.DDS
-# Loading work.phase_accumulator
-# Loading work.up_counter
-# Loading work.two_s_complement
-# Loading work.ROM
-# Loading work.sign_to_two_s_comp
-# Loading work.dac_pwm
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'H_L'. The port definition is at: E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FrequencyDivider.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /datapath_TB/DUT/FreqDivH File: E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath.v Line: 8
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'H_L'. The port definition is at: E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FrequencyDivider.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /datapath_TB/DUT/FreqDivL File: E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath.v Line: 16
-vsim -gui work.datapath_TB
-# End time: 13:51:48 on Dec 21,2024, Elapsed time: 1:00:39
-# Errors: 0, Warnings: 3
-# vsim -gui work.datapath_TB 
-# Start time: 13:51:48 on Dec 21,2024
-# Loading sv_std.std
-# Loading work.datapath_TB
-# Loading work.datapath
-# Loading work.FrequencyDivider
-# Loading work.MessageProcess
-# Loading work.ShiftRegister
-# Loading work.UpCounter
-# Loading work.two_one_mux
-# Loading work.DDS
-# Loading work.phase_accumulator
-# Loading work.up_counter
-# Loading work.two_s_complement
-# Loading work.ROM
-# Loading work.sign_to_two_s_comp
-# Loading work.dac_pwm
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'H_L'. The port definition is at: E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FrequencyDivider.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /datapath_TB/DUT/FreqDivH File: E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath.v Line: 8
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'H_L'. The port definition is at: E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FrequencyDivider.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /datapath_TB/DUT/FreqDivL File: E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath.v Line: 16
-add wave -position insertpoint  \
-sim:/datapath_TB/DUT/clk \
-sim:/datapath_TB/DUT/rst \
-sim:/datapath_TB/DUT/send \
-sim:/datapath_TB/DUT/init \
-sim:/datapath_TB/DUT/Mode \
-sim:/datapath_TB/DUT/PL \
-sim:/datapath_TB/DUT/Msg \
-sim:/datapath_TB/DUT/out \
-sim:/datapath_TB/DUT/coH \
-sim:/datapath_TB/DUT/coL \
-sim:/datapath_TB/DUT/SM \
-sim:/datapath_TB/DUT/MsgPrcsClk \
-sim:/datapath_TB/DUT/DDSclk \
-sim:/datapath_TB/DUT/magnitude \
-sim:/datapath_TB/DUT/DDSMuxSel \
-sim:/datapath_TB/DUT/pwm_in
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: ssata  Hostname: DEVER-PC  ProcessID: 26016
-#           Attempting to use alternate WLF file "./wlftbv6eiz".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftbv6eiz
-run -all
-# ** Note: $stop    : E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath_TB.sv(36)
-#    Time: 6040120 ps  Iteration: 0  Instance: /datapath_TB
-# Break in Module datapath_TB at E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath_TB.sv line 36
-# Compile of DDS.v was successful.
-# Compile of DDS_TB.sv was successful.
-# Compile of phase_accumulator.v was successful.
-# Compile of ROM.v was successful.
-# Compile of sign_to_two_s_comp.v was successful.
-# Compile of two_one_mux.v was successful.
-# Compile of two_s_complement.v was successful.
-# Compile of up_counter.v was successful.
-# Compile of dac_pwm_tb.sv was successful.
-# Compile of MessageProcess.v was successful.
-# Compile of MssageProcess_TB.v was successful.
-# Compile of ShiftRegister.v was successful.
-# Compile of UpCounter.v was successful.
-# Compile of dac_pwm.v was successful.
-# Compile of FrequencyDivider.v was successful.
-# Compile of FrequencyDivider_TB.sv was successful.
-# Compile of datapath.v was successful.
-# Compile of datapath_TB.sv was successful.
-# Compile of FreqDivHL.v was successful.
-# 19 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.datapath_TB
-# Loading work.datapath
-# Loading work.FrequencyDivider
-# Loading work.MessageProcess
-# Loading work.ShiftRegister
-# Loading work.UpCounter
-# Loading work.two_one_mux
-# Loading work.DDS
-# Loading work.phase_accumulator
-# Loading work.up_counter
-# Loading work.two_s_complement
-# Loading work.ROM
-# Loading work.sign_to_two_s_comp
-# Loading work.dac_pwm
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'H_L'. The port definition is at: E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FrequencyDivider.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /datapath_TB/DUT/FreqDivH File: E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath.v Line: 8
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'H_L'. The port definition is at: E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FrequencyDivider.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /datapath_TB/DUT/FreqDivL File: E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath.v Line: 16
-run -all
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# ** Note: $stop    : E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath_TB.sv(36)
-#    Time: 6040120 ps  Iteration: 0  Instance: /datapath_TB
-# Break in Module datapath_TB at E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath_TB.sv line 36
-# Compile of DDS.v was successful.
-# Compile of DDS_TB.sv was successful.
-# Compile of phase_accumulator.v was successful.
-# Compile of ROM.v was successful.
-# Compile of sign_to_two_s_comp.v was successful.
-# Compile of two_one_mux.v was successful.
-# Compile of two_s_complement.v was successful.
-# Compile of up_counter.v was successful.
-# Compile of dac_pwm_tb.sv was successful.
-# Compile of MessageProcess.v was successful.
-# Compile of MssageProcess_TB.v was successful.
-# Compile of ShiftRegister.v was successful.
-# Compile of UpCounter.v was successful.
-# Compile of dac_pwm.v was successful.
-# Compile of FrequencyDivider.v was successful.
-# Compile of FrequencyDivider_TB.sv was successful.
-# Compile of datapath.v was successful.
-# Compile of datapath_TB.sv was successful.
-# Compile of FreqDivHL.v was successful.
-# 19 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.datapath_TB
-# Loading work.datapath
-# Loading work.FrequencyDivider
-# Loading work.MessageProcess
-# Loading work.ShiftRegister
-# Loading work.UpCounter
-# Loading work.two_one_mux
-# Loading work.DDS
-# Loading work.phase_accumulator
-# Loading work.up_counter
-# Loading work.two_s_complement
-# Loading work.ROM
-# Loading work.sign_to_two_s_comp
-# Loading work.dac_pwm
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'H_L'. The port definition is at: E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FrequencyDivider.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /datapath_TB/DUT/FreqDivH File: E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath.v Line: 8
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'H_L'. The port definition is at: E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/FrequencyDivider.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /datapath_TB/DUT/FreqDivL File: E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath.v Line: 16
-run -all
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# ** Note: $stop    : E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath_TB.sv(36)
-#    Time: 6040120 ps  Iteration: 0  Instance: /datapath_TB
-# Break in Module datapath_TB at E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/modelsim_test/datapath_TB.sv line 36
-# End time: 15:45:54 on Dec 21,2024, Elapsed time: 1:54:06
-# Errors: 0, Warnings: 3

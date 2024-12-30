@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP2C20F484) Path("C:/Users/ssata/OneDrive/Desktop/") File("dig_modulation.sof") MfrSpec(OpMask(1));
+		Device PartName(EP2C20F484) Path("E:/uni/UT/5th Semester/DLD Lab/DigitalModulation/Quartus/output_files/") File("DigitalModulation.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 
